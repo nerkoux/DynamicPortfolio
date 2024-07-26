@@ -19,7 +19,7 @@ Dynamic Portfolio is a powerful, customizable platform that allows developers to
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js (v20 or later)
 - npm or yarn
 - Cloudflare account (for R2 storage)
 
