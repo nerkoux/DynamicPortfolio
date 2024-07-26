@@ -40,7 +40,7 @@ const API_URL = 'https://your-api-url.com/api';
 ```
 
 ### Cloudflare R2 Configuration
-In server/routes/api.js, update the S3 client configuration:
+In `server/routes/api.js`, update the S3 client configuration:
 ```javascript
 const s3Client = new S3Client({
   region: 'auto',
