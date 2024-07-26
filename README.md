@@ -63,10 +63,10 @@ const s3Client = new S3Client({
 
 ## 🙏 Acknowledgements
 
-React
-Express
-Cloudflare R2
-Vercel
+- React
+- Express
+- Cloudflare R2
+- Vercel
 
 ## Credits
 Created with ❤️ by Akshat Mehta
