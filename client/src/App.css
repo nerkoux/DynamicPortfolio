@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header-area {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Home Section Styles */
+.FirstElement {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.profile-photo img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  margin-left: 2rem;
+}
+
+.btn-group {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.social {
+  margin-top: 1rem;
+}
+
+.social a {
+  margin-right: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* About Section Styles */
+.about-area {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+}
+
+/* Education Section Styles */
+.education-content {
+  padding: 4rem 0;
+}
+
+.timeline-box {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 2rem;
+}
+
+.circle-dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+/* Projects Section Styles */
+.project-content {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+}
+
+/* Contact Section Styles */
+.contact-content {
+  padding: 4rem 0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.registration-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.education-item,
+.internship-item,
+.project-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.education-item input,
+.internship-item input,
+.project-item input {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #333;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dynamic-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "cd server && node index.js",
+    "dev-client": "cd client && npm run dev",
+    "build-client": "cd client && npm run build",
+    "start-build": "cd client && vite preview",
+    "start-together": "cd server && node index.js && cd client && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/portfolio/:id", 
+      "destination": "/"
+    },
+    {
+      "source": "/api/register",
+      "destination": "https://<YOUR-API-URL>/api/register"
+    }
+  ]
+}
